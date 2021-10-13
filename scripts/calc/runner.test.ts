@@ -8,9 +8,18 @@ describe("Runner normal mode simple cases", () => {
   it("2 * 32", () => {
     expect(normalMode("2 * 32")).toEqual(64);
   });
+  it("3 * 32", () => {
+    expect(normalMode("3 * 32")).toEqual(96);
+  });
 
+  it("1 + 32", () => {
+    expect(normalMode("1 + 32")).toEqual(33);
+  });
   it("2 + 32", () => {
     expect(normalMode("2 + 32")).toEqual(34);
+  });
+  it("3 + 32", () => {
+    expect(normalMode("3 + 32")).toEqual(35);
   });
 });
 
@@ -25,6 +34,9 @@ describe("Runner normal mode simple mix cases", () => {
 
   it("2 + 2 * 3", () => {
     expect(normalMode("2 + 2 * 3")).toEqual(8);
+  });
+  it("7 - 2 * 3", () => {
+    expect(normalMode("7 - 2 * 3")).toEqual(1);
   });
 });
 
