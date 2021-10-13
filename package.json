@@ -35,14 +35,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickovchinnikov/react-js-tutorial.git"
+    "url": "https://github.com/rodin-stas/otus_first_dz"
   },
   "author": "Nick Ovchinnikov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickovchinnikov/react-js-tutorial/issues"
+    "url": "https://github.com/rodin-stas/otus_first_dz/issues"
   },
-  "homepage": "https://github.com/nickovchinnikov/react-js-tutorial#readme",
+  "homepage": "https://github.com/rodin-stas/otus_first_dz/readme",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
